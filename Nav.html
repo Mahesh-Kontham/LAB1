@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Navigation Bar</title>
 </head>
 <body>
     <nav>
-        <ul>
-           <li> <a href="">Home</a></li>
-           <li><a href="">SignUp</a></li>
-           <li><a href="">Login</a></li>
-        <li><input type="text" name="Search bar" placeholder="search.." ></li> <button>search</button>
-        </ul>
-        
+        <table border="1" width="100%">
+            <tr>
+                <td><a href="#home">Home</a></td>
+                <td><a href="#signup">Signup</a></td>
+                <td><a href="#login">Login</a></td>
+                <td>
+                    <form action="#search" method="get">
+                        <input type="text" placeholder="Search..." name="search">
+                        <button type="submit">Search</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
     </nav>
 </body>
 </html>
